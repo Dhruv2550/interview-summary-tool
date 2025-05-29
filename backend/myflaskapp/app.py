@@ -17,7 +17,8 @@ ALLOWED_ORIGINS = [
     os.getenv("FRONTEND_URL"), 
     'http://localhost:3000'  
 ]
-CORS(app, origins=ALLOWED_ORIGINS)  # Enable CORS for specific origins
+# Enable CORS for specific origins
+CORS(app, origins=ALLOWED_ORIGINS)  
 
 # local development
 # app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///sessions.db"

@@ -185,7 +185,6 @@ export default function Home() {
         const data = await response.json();
         setAllSessions(data);
 
-        // If we have sessions but no current session, set the first one
         if (data.length > 0 && !currentSessionId) {
           setCurrentSessionId(data[0].id);
         }
