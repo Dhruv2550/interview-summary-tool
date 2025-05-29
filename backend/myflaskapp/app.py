@@ -26,13 +26,9 @@ CORS(app, origins=ALLOWED_ORIGINS)
 
 # Use environment variable for database URL
 # url has to be in the format: postgresql+psycopg2://username:password@host/database_name
-try: 
-    app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
-    db = SQLAlchemy(app)
-except Exception as e:
-    print(">> Error in SQLALCHEMY_DATABASE_URI:", str(e))
-    print(">> DATABASE_URL from env:", os.getenv("DATABASE_URL"))
-
+print(">> DATABASE_URL from env:", os.getenv("DATABASE_URL"))
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
+db = SQLAlchemy(app)
 
 
 class UserModel(db.Model):
