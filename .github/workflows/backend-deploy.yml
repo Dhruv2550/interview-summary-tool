@@ -48,5 +48,6 @@ jobs:
             --resource-group fair-rg \
             --set-env-vars \
               OPENAI_GPT4O_API_KEY=${{ secrets.OPENAI_GPT4O_API_KEY }} \
-              DATABASE_URL=${{ secrets.DATABASE_URL }}
+              DATABASE_URL=${{ secrets.DATABASE_URL }} \
+              FRONTEND_URL=${{ secrets.FRONTEND_URL }}
               

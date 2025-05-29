@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Configure CORS with allowed origins
 ALLOWED_ORIGINS = [
-    'https://lemon-coast-09ad20f0f.6.azurestaticapps.net', 
+    os.getenv("FRONTEND_URL"), 
     'http://localhost:3000'  
 ]
 CORS(app, origins=ALLOWED_ORIGINS)  # Enable CORS for specific origins
