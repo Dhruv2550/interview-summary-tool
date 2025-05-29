@@ -25,13 +25,13 @@ jobs:
 
       - name: Azure ACR Login
         run: |
-          az acr login --name fairRegistry
+          az acr login --name faircr
 
       - name: Build and Push Docker image for linux/amd64
         run: |
           docker buildx build \
             --platform linux/amd64 \
-            -t fairregistry.azurecr.io/fair-ai-backend:latest \
+            -t faircr.azurecr.io/fair-ai-backend:latest \
             --push ./backend
 
       - name: Deploy to Azure Container Apps
@@ -39,7 +39,7 @@ jobs:
           az containerapp update \
             --name fair-ai-backend \
             --resource-group fair-rg \
-            --image fairregistry.azurecr.io/fair-ai-backend:latest
+            --image faircr.azurecr.io/fair-ai-backend:latest
 
       - name: Set environment variables on Azure Container App
         run: |
