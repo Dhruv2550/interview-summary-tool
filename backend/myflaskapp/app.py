@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Configure CORS with allowed origins
 ALLOWED_ORIGINS = [
-    'https://icy-beach-0c1ee010f.6.azurestaticapps.net', 
+    'https://icy-bush-0ddc9600f.6.azurestaticapps.net', 
     'http://localhost:3000'  
 ]
 # Enable CORS for specific origins
@@ -25,7 +25,7 @@ CORS(app, origins=ALLOWED_ORIGINS)
 
 
 # Use environment variable for database URL
-# url has to be in the format: postgresql+psycopg2://username:password@host/database_name
+# url has to be in the format: postgresql+psycopg2://username:password@host:5432/database_name
 print(">> DATABASE_URL from env:", os.getenv("DATABASE_URL"))
 app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
 db = SQLAlchemy(app)
