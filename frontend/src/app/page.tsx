@@ -13,7 +13,7 @@ const debounce = (func: Function, delay: number) => {
   };
 };
 
-// Transcript formatting helper function
+// Transcript formatting helper function.
 const formatTranscript = (transcript: string): string => {
   if (!transcript) return "";
 
