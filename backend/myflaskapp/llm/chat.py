@@ -19,7 +19,7 @@ def stream_response(messages):
     )
     for chunk in response:
         if not chunk or not hasattr(chunk, "choices") or len(chunk.choices) == 0:
-            continue  # skip invalid or empty chunks
+            continue  # skip invalid or empty chunk
 
         delta = getattr(chunk.choices[0].delta, "content", "") or ""
         yield delta
