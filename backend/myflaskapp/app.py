@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Configure CORS with allowed origins
 ALLOWED_ORIGINS = [
-    'https://icy-bush-0ddc9600f.6.azurestaticapps.net', 
+    'https://icy-bush-0ddc9600f.6.azurestaticapps.net', # change this to the url of the static web app
     'http://localhost:3000'  
 ]
 # Enable CORS for specific origins
