@@ -2,14 +2,6 @@
 
 **FAIR** is an AI-assisted investigation and review system developed for the New Jersey Attorney Generals Office Division on Civil Rights (DCR) to streamline case handling, improve documentation consistency, and accelerate investigative workflows.
 
-<div>
-    <a href="https://www.loom.com/share/cc17300943024212ab192660a3616a1f">
-    </a>
-    <a href="https://www.loom.com/share/cc17300943024212ab192660a3616a1f">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/cc17300943024212ab192660a3616a1f-e9de020951c4e758-full-play.gif">
-    </a>
-  </div>
-
 ## What It Does
 NJ FAIR provides an AI-assisted investigation and review system with three key components:
 
