@@ -36,9 +36,23 @@ NJ FAIR provides an AI-assisted investigation and review system with three key c
 | **Data Privacy**    | Uploaded documents are not stored; they are deleted immediately after processing   |
 
 ## Setup
-[Implementation Guide](https://docs.google.com/document/d/1mKihLHuzYI1ngoRYq0nefKdJrAXjNyx4xdUSyEvoxuc/edit?usp=sharing)
+[Implementation Guide](https://docs.google.com/document/d/1mKihLHuzYI1ngoRYq0nefKdJrAXjNyx4xdUSyEvoxuc/edit?usp=sharing) \
 To find the cloud deployment instructions go the deployment section on page 6 and follow the link to the instructions.
 
+## Core Modules
+
+| Module              | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| `interview_summarizer.py`  | Contains the Prompt for Generating the Summary                       |
+| `chat.py`  | Contains the Prompt for Initializing the AI Assistant                      |
+| `app.py`       | Backend File                             |
+| `page.tsx`   | Frontend File         |
+| `requirements.txt`            | Contains All the Requirements                       |
+| `.github/workflows`     | Folder Containing GitHub Workflow Files to Push Updates to Azure                        |
+
+## Roadmap
+- Deploy on DCR Tech Infrastructure
+- User Feedback Mechanism 
 
 ## Contributions
 If you are contributing please follow these steps:
