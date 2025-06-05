@@ -36,15 +36,8 @@ NJ FAIR provides an AI-assisted investigation and review system with three key c
 | **Data Privacy**    | Uploaded documents are not stored; they are deleted immediately after processing   |
 
 ## Setup
-#### Clone the Repo
-git clone https://github.com/arinjay-singh/interview-summary-tool/tree/main  \
-cd project-name
+[Cloud Deployment Instructions](https://docs.google.com/document/d/1lS4YTHAj3v64Q3utybwjPcK1FR5LfSL98I8IV9YxVmY/edit?usp=sharing)
 
-#### Install Dependencies
-pip install -r requirements.txt
-
-#### Run Locally
-???
 
 ## Contributions
 If you are contributing please follow these steps:
