@@ -4,6 +4,9 @@
 
 # Demo
 
+<img src="https://github.com/Dhruv2550/interview-summary-tool/blob/43f8a733b868f07f48b95633eed50f0e7aa480aa/FAIR%20Demo.gif?raw=true" width="500"/>
+
+
 ## What It Does
 NJ FAIR provides an AI-assisted investigation and review system with three key components:
 
