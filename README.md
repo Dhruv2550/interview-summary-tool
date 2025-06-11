@@ -8,13 +8,14 @@ FAIR provides an AI-assisted investigation and review system with three key comp
 #### **Transcript Processing**
 - Converts video recordings into structured, searchable transcripts  
 - Significantly improves accuracy by 36% compared to current Microsoft Teams transcription  
-- Creates consistent documentation that follows standardized formatting  
+- Creates consistent documentation that follows standardized formatting
+<img src="https://github.com/Dhruv2550/interview-summary-tool/blob/24a52638eb29717f1d331b6211de66c66da1e6a5/FAIR%20Home%20Page.png" alt="Homepage" width="500">
 
 #### **Interview Summarization**
 - Generates concise, context-aware summaries based on transcripts  
 - Structures summaries according to DCR's preferred format for investigative documentation  
 - Highlights key elements such as allegations, respondent statements, and supporting evidence  
-- Easy ‘revision’ button to alter summary based on additional context or personal preferences  
+- Easy ‘revision’ button to alter summary based on additional context or personal preferences
 
 #### **Interactive Chat Interface**
 - Allows users to ask natural language questions about the interview content  
