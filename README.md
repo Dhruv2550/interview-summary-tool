@@ -60,7 +60,8 @@ To find the cloud deployment instructions go the deployment section on page 6 an
 
 ## Roadmap
 - [ ] Deploy on DCR Tech Infrastructure
-- [ ] User Feedback Mechanism 
+- [ ] User Feedback Mechanism
+- [ ] Expand multi-language support for diverse New Jersey communities
 
 ## Contributions
 If you are contributing please follow these steps:
