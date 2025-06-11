@@ -52,9 +52,15 @@ To find the cloud deployment instructions go the deployment section on page 6 an
 | `requirements.txt`            | Contains All the Requirements                       |
 | `.github/workflows`     | Folder Containing GitHub Workflow Files to Push Updates to Azure                        |
 
+## Security & Privacy
+- Documents are processed **in-memory only** and nothing is saved to a database after the summary is generated
+- No document data is persisted once the request completes.
+- API is CORS-enabled but can be locked down to authenticated roles via Azure Static Web Apps config.
+- Secrets are stored in environment variables.
+
 ## Roadmap
-- Deploy on DCR Tech Infrastructure
-- User Feedback Mechanism 
+- [ ] Deploy on DCR Tech Infrastructure
+- [ ] User Feedback Mechanism 
 
 ## Contributions
 If you are contributing please follow these steps:
