@@ -59,9 +59,11 @@ To find the cloud deployment instructions go the deployment section on page 6 an
 - Secrets are stored in environment variables.
 
 ## Roadmap
-- [ ] Deploy on DCR Tech Infrastructure
-- [ ] User Feedback Mechanism
+- [ ] Integration with DCR Tech Stack: Host tool on DCR's Azure cloud account and make accessible through NJ BIAS
+- [ ] User Feedback Mechanism: Add feedback buttons to summary and home pages
 - [ ] Expand multi-language support for diverse New Jersey communities
+- [ ] Develop domain-specific models trained on civil rights legal terminology
+
 
 ## Contributions
 If you are contributing please follow these steps:
