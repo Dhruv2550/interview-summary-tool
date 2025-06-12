@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://github.com/Dhruv2550/interview-summary-tool/blob/ce4b7abadc13d43c7017ab29594dba12be566f17/FAIR%20Home%20Page.png" alt="Homepage" width="400"/>
-  <img src="https://github.com/Dhruv2550/interview-summary-tool/blob/c039fbfb5761ab23e83aff17f6aa9143db24a67f/FAIR%20AI%20Assistant.png" alt="Summary" width="600"/>
+  <img src="https://github.com/Dhruv2550/interview-summary-tool/blob/c039fbfb5761ab23e83aff17f6aa9143db24a67f/FAIR%20AI%20Assistant.png" alt="Summary" width="500"/>
 </p>
 
 
