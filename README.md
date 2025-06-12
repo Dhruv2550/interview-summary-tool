@@ -9,7 +9,7 @@
 
 
 ## What It Does
-FAIR provides an AI-assisted investigation and review system with three key components:
+FAIR is an AI-assisted investigation and review system with three key components:
 
 #### **Transcript Processing**
 - Converts video recordings into structured, searchable transcripts  
